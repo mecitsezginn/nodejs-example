@@ -1,2 +1,2 @@
-# nodejs-exmple
+# nodejs-example
 nodejs örnek uygulamalar
