@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Kişiler</title>
+</head>
+<body>
+  <ul>
+  <% for(let sira = 0; sira < liste.length; sira++) { %>
+    <li><a href="/kisi/<%=liste[sira].id%>"><%=liste[sira].kisiAdi()%> <%=liste[sira].kisiSoyadi()%></a></li>
+  <% } %>
+  </ul>
+</body>
+</html>
